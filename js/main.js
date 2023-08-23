@@ -52,41 +52,6 @@ function onSubmitForm(e) {
     $('#message').show();
 }
 
-function showPopUp(){
-	my_popup.style.display="block";
-}
-
-function hidePopUp(){
-	my_popup.style.display="none";
-}
-
-function showPopUp(){
-	my_popup.style.display="block";
-}
-
-function ClosePopUp(){
-	my_popup.style.display="none";
-}
-setInterval(showPopUp,1000);
-
-/*function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}*/
-
-/*const mobile_nav = document.querySelector(".mobile-navbar-btn");
-const nav_header = document.querySelector(".header");
-
-const toggleNavbar = () => {
-  // alert("Plz Subscribe ");
-  nav_header.classList.toggle("active");
-};
-
-mobile_nav.addEventListener("click", () => toggleNavbar());*/
 
 const navbarToggle = navbar.querySelector("#navbar-toggle");
 const navbarMenu = document.querySelector("#navbar-menu");
